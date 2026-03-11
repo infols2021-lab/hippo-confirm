@@ -2,6 +2,10 @@ export const SHEET_KEY_TO_NAME = {
   bel: "Белгородская",
   vor: "Воронежская",
   my: "Моя",
+  orl: "Орловская",
+  nnov: "Нижегородская",
+  tam: "Тамбовская",
+  lip: "Липецкая",
 } as const;
 
 export type ConfirmSheetKey = keyof typeof SHEET_KEY_TO_NAME;
