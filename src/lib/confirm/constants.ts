@@ -5,6 +5,7 @@ export const SHEET_KEY_TO_NAME = {
   orl: "Орловская",
   nnov: "Нижегородская",
   tam: "Тамбовская",
+  kur: "Курская",
   lip: "Липецкая",
 } as const;
 
